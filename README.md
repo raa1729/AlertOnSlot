@@ -7,3 +7,6 @@ Right now it is built and tested for https://sameday.costco.com/store/account/or
 
 You can update the alert sound by replacing ring.mp3 to whatever you like
 Update contentscript.js with what ever text that you don't want to find like "Busy", "Not available" kind of messages
+
+Follow below guide for installing the extension
+https://www.thesslstore.com/blog/install-a-chrome-extension-from-github/
