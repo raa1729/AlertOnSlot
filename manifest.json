@@ -1,0 +1,24 @@
+{
+  "background": {
+     "scripts": [ "background.js" ]
+  },
+  "name": "Alert On Slot",
+  "version": "0.0.1",
+  "description": "Alert user when costco slot is available for delivery",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/carrot64.png"
+  },
+  "content_scripts": [{
+    "matches": ["https://*.costco.com/*"],
+    "js": ["contentScript.js"],
+    "run_at": "document_end"
+  }],
+  "permissions": [ "tabs", "activeTab", "background", "\u003Call_urls>", "https://*.costco.com/*" ],
+  "icons": {
+    "16": "images/carrot16.png",
+    "32": "images/carrot32.png",
+    "64": "images/carrot64.png"
+  }
+}
