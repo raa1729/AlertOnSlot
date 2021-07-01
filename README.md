@@ -1,5 +1,5 @@
 # AlertOnSlot
-Chrome Extension for Alerting Users by Paying sound when costco slot is available
+Chrome Extension for Alerting Users by Playing sound when costco slot is available
 
 This script can refresh the page that you opened and keep on refreshing that page at given interval and alert you by playing a sound when it finds(or on not finding) a particular string.
 
